@@ -9,7 +9,9 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
@@ -23,9 +25,7 @@
                     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                         <a href="/"
                             class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
-                            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
-                                <use xlink:href="#bootstrap"></use>
-                            </svg>
+                            <img class="bi me-2" src="./assets/LOGO.png" width="42" height="40" role="img" aria-label="Bootstrap">
                         </a>
 
                         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
@@ -58,10 +58,8 @@
             <img class="d-block mx-auto mb-4" src="./assets/LOGO.png" alt="" width="102" height="100">
             <h1 class="display-5 fw-bold ">TUSOME</h1>
             <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                    world’s most
-                    popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
-                    extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <p class="lead mb-4">Welcome to Tusome here you can find various learning materials, from exam past papers,scheme of works and CBC solved 
+                    Homeworks.We have also various quick links that you can access from without exiting our platform.</p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                     <button type="button" class="btn btn-dark btn-lg px-4 gap-3">Vacancies</button>
                     <button type="button" class="btn btn-secondary btn-lg px-4 ">News</button>
@@ -70,68 +68,83 @@
         </div>
 
     </section>
-    <section class="schemes">
+    <section class="schemes" id="schemes">
         <div class=" container py-4">
             <h4 class="text-center text-body-emphasis">Schemes of Work</h4>
             <table class="table table-striped">
                 <thead>
                     <tr>
                         <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
+                        <th scope="col">Class</th>
+                        <th scope="col">Download link</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
                         <td>PP1</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                        <td><a href="#"><i class="fas fa-file-download"></i></a></td>
                     </tr>
                     <tr>
                         <th scope="row">2</th>
                         <td>PP2</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
+                        <td><a href="#"><i class="fas fa-file-download"></i></a></td>
                     </tr>
                     <tr>
                         <th scope="row">3</th>
-                        <td colspan="2">GRADE 1</td>
-                        <td>@twitter</td>
+                        <td>GRADE 1</td>
+                        <td><a href="#"><i class="fas fa-file-download"></i></a></td>
                     </tr>
                     <tr>
                         <th scope="row">4</th>
-                        <td colspan="2">GRADE 2</td>
-                        <td>@twitter</td>
+                        <td>GRADE 2</td>
+                        <td><a href="#"><i class="fas fa-file-download"></i></a></td>
                     </tr>
                     <tr>
                         <th scope="row">5</th>
-                        <td colspan="2">GRADE 3</td>
-                        <td>@twitter</td>
+                        <td>GRADE 3</td>
+                        <td><a href="#"><i class="fas fa-file-download"></i></a></td>
                     </tr>
                     <tr>
                         <th scope="row">6</th>
-                        <td colspan="2">GRADE 4</td>
-                        <td>@twitter</td>
+                        <td>GRADE 4</td>
+                        <td><a href="#"><i class="fas fa-file-download"></i></a></td>
                     </tr>
                     <tr>
                         <th scope="row">7</th>
-                        <td colspan="2">GRADE 5</td>
-                        <td>@twitter</td>
+                        <td>GRADE 5</td>
+                        <td><a href="#"><i class="fas fa-file-download"></i></a></td>
                     </tr>
                     <tr>
                         <th scope="row">8</th>
-                        <td colspan="2">SECONDARY</td>
-                        <td>@twitter</td>
+                        <td>SECONDARY</td>
+                        <td>
+                            <div class="dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Select
+                                </a>
+                        
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">F1</a></li>
+                                    <li><a class="dropdown-item" href="#">F2</a></li>
+                                    <li><a class="dropdown-item" href="#">F3</a></li>
+                                    <li><a class="dropdown-item" href="#">F4</a></li>
+                                </ul>
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <th scope="row">9</th>
-                        <td colspan="2">SPECIAL</td>
-                        <td><a href="#">special</a></td>
+                        <td>SPECIAL</td>
+                        <td><a href="#"><i class="fas fa-file-download"></i></a></td>
                     </tr>
                 </tbody>
             </table>
+        </div>
+    </section>
+    <section id="exam">
+        <div class="container">
+            <h4 class="text-center text-body-emphasis">Exams</h4>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
