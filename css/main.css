@@ -14,9 +14,12 @@ html {
     scroll-behavior: smooth;
 }
 
+
 body{
     background-color: rgba(148, 141, 133, 0.747);
+ 
 }
+
 .hero{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),url(../assets/books.jpg);
         min-height: 80vh;
@@ -29,3 +32,4 @@ body{
         flex-direction: column;
         justify-content: stretch;
 }
+
